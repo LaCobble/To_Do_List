@@ -1,7 +1,7 @@
 # To Do List
 
 <p align="center">
-<img src="https://github.com/LaCobble/To_Do_List/assets/71151090/863d4219-ee56-445f-8e7c-1dfd5e963f6e" width=40% height=40%>>
+<img src="https://github.com/LaCobble/To_Do_List/assets/71151090/863d4219-ee56-445f-8e7c-1dfd5e963f6e" width=40% height=40%>
 </p>
 
 This project is a simple To Do List application that allows you to manage your daily tasks. You can add new tasks, mark them as complete, and delete completed tasks.
