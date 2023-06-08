@@ -40,10 +40,12 @@ La_Cobble
 ## License
 This project is licensed under the MIT License. For more information, see the LICENSE file.
 
-
 Make sure to customize the information such as your name, email address, and the repository clone link. You can also add additional sections or modify the content as per your requirements.
 
 Remember to include the `style.css` and `script.js` files in your GitHub repository for the application to work properly.
 
 I hope this helps! If you have any further questions, feel free to ask.
 
+## Contact
+
+Thank you for using the To_Do_List application! If you have any questions or need further assistance, please feel free to contact us.
