@@ -15,11 +15,17 @@ A minimal to-do list built with Vue.js: add tasks, tick them off and keep track 
 - Tick a task to mark it as done; see how many are pending and the percentage completed.
 - Show or hide completed tasks, delete a task, or clear the whole list.
 
-## Screenshot
+## Screenshots
 
-<img src="docs/images/screenshot.webp" alt="To Do List screenshot" width="600">
+<table>
+  <tr>
+    <td width="33%"><img src="docs/images/tasks.webp" alt="Tasks added from the input field"><br><sub>Tasks added from the input field</sub></td>
+    <td width="33%"><img src="docs/images/completed.webp" alt="One task ticked, completed tasks shown with the percentage"><br><sub>One task ticked, completed tasks shown with the percentage</sub></td>
+    <td width="33%"><img src="docs/images/empty.webp" alt="Empty list after “Clear All”"><br><sub>Empty list after “Clear All”</sub></td>
+  </tr>
+</table>
 
-<sub>Rendered locally from this repository (October 2026), with the two sample tasks the app starts with.</sub>
+<sub>Captured with headless Chrome from a local run (October 2026); the tasks were typed and ticked through the UI.</sub>
 
 ## Prerequisites
 
