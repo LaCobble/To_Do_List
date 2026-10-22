@@ -1,51 +1,63 @@
 # To Do List
 
-<p align="center">
-<img src="https://github.com/LaCobble/To_Do_List/assets/71151090/863d4219-ee56-445f-8e7c-1dfd5e963f6e" width=40% height=40%>
-</p>
+A minimal to-do list built with Vue.js: add tasks, tick them off and keep track of your progress for the day.
 
-This project is a simple To Do List application that allows you to manage your daily tasks. You can add new tasks, mark them as complete, and delete completed tasks.
+[![CI](https://github.com/LaCobble/To_Do_List/actions/workflows/ci.yml/badge.svg)](https://github.com/LaCobble/To_Do_List/actions/workflows/ci.yml)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Vue.js](https://img.shields.io/badge/Vue.js-2-4FC08D?logo=vuedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+## What it does
+
+- Shows the current day and date.
+- Add a task by typing it and pressing Enter (or the **+** button).
+- Tick a task to mark it as done; see how many are pending and the percentage completed.
+- Show or hide completed tasks, delete a task, or clear the whole list.
+
+## Screenshot
+
+<img src="docs/images/screenshot.webp" alt="To Do List screenshot" width="600">
+
+<sub>Rendered locally from this repository (October 2026), with the two sample tasks the app starts with.</sub>
 
 ## Prerequisites
 
-Before getting started, make sure you have the following installed:
+- A modern web browser. Vue.js 2.5 is loaded from a CDN, so an internet connection is needed on first load.
 
-- A modern web browser compatible with HTML5 and CSS3
-- Vue.js (version 2.5.3) - included via a CDN link
+## Getting started
 
-## Installation
-
-1. Clone this repository to your local machine: 
- 
 ```bash
-git clone https://github.com/LaCobble/To_Do_List
+git clone https://github.com/LaCobble/To_Do_List.git
+cd To_Do_List
+open index.html        # or double-click it / use `xdg-open` on Linux
 ```
 
-## Usage
-Enter a new task in the text field at the top of the page and press Enter to add it to your list.
-Check the checkbox next to a task to mark it as complete.
-Click the delete icon next to a task to remove it from the list.
+There is no build step and no test suite; the CI checks the JavaScript syntax, that every local asset referenced by the HTML exists, and scans for secrets.
 
-## Features
-Display of the current date and day.
-Management of pending tasks and completed tasks.
-Display of the percentage of completed tasks.
-Ability to show or hide completed tasks.
-Clearing all tasks from the list.
+## Project structure
 
+```
+To_Do_List/
+├── index.html   # markup and Vue template
+├── script.js    # Vue instance: tasks, computed counters, actions
+├── style.css
+└── img/         # empty-list and delete icons
+```
 
-## Author
-La_Cobble
+## What it demonstrates
+
+- Vue.js 2 basics: reactive data, computed properties, `v-for`, `v-if`, `v-model` and event handling.
+- A small, dependency-free front end with no build tooling.
+
+## Context
+
+School web-programming lab (June 2023). Kept as a portfolio piece; no longer actively developed.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). Security issues: [SECURITY.md](SECURITY.md).
 
 ## License
-This project is licensed under the MIT License. For more information, see the LICENSE file.
 
-Make sure to customize the information such as your name, email address, and the repository clone link. You can also add additional sections or modify the content as per your requirements.
-
-Remember to include the `style.css` and `script.js` files in your GitHub repository for the application to work properly.
-
-I hope this helps! If you have any further questions, feel free to ask.
-
-## Contact
-
-Thank you for using the To_Do_List application! If you have any questions or need further assistance, please feel free to contact us.
+[MIT](LICENSE) © LaCobble.
